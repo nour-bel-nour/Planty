@@ -1,0 +1,159 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
+
+body * { 
+       font-family: 'Syne', sans-serif;
+ }
+
+ 
+/* Header */
+
+.header-inner {
+  height: 80px;
+  width: 1440px;
+  
+}
+
+.custom-logo-link{
+  margin-left: 37px;
+} 
+
+.header-navigation-wrapper .menu-item a{
+  padding-top: 30px;
+  color:black !important;
+  text-decoration: none !important;
+  padding-right: 35px;
+}
+
+.header-navigation-wrapper .menu-item a:hover {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.header-navigation-wrapper #menu-item-57 a{
+  background-color : #DC9F96; 
+  color: #ffffff !important;
+  height: 80px;
+  width: 236px;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 30px 61px;
+  text-decoration: none;
+  margin-right: -80px;
+}
+
+.header-navigation-wrapper #menu-item-57 a:hover {
+  background-color:rgb(189, 12, 12) ;
+}
+
+.branche1 {
+  margin-right: -187px;
+  margin-top: 137px
+}
+
+.branche2 {
+  margin-left:-190px ;
+  margin-top:137px ;
+}
+
+
+
+
+/* Footer */
+
+.hfe-copyright-wrapper a{
+  color: black;
+}
+
+/* Formulaire */
+
+/*  page nous contacter  */
+.elementor-element-73936f4  .has-spinner  {
+  border-radius: 5px;
+  background: #E0B9B4;
+  text-decoration: none !important;
+  margin-left: 107px;
+}
+
+.elementor-element-73936f4 .has-spinner:hover {
+  background-color:rgb(189, 12, 12) ;
+}
+
+.page-id-43{
+  background-color: #3B8E46 !important;
+}
+
+/*.init p {
+  color: white;
+}*/
+
+.elementor-element-4a1fc20  .has-spinner{
+  border-radius: 5px;
+  background-color: #E0B9B4;
+  width: 100px;
+  height: 56px;
+  text-decoration: none;
+}
+
+.elementor-element-4a1fc20 .wpcf7-validates-as-number{
+  border-radius: 5px;
+  width: 71px;
+  height: 56px;
+  margin-top: -95px;
+  margin-left: 70px;
+}
+
+.deux-colonnes {
+  display: block ;
+  flex-direction:row ;
+  border-radius: 5px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 992px) {
+  
+  .ancestor-wrapper a{
+    padding-top: 30px;
+    color:black !important;
+    text-decoration: none !important;
+  }
+  .menu-item-57 .ancestor-wrapper a{
+    background-color : #DC9F96; 
+    color: white !important;
+    padding-top: 30px;
+    width: 150px;
+    text-decoration: none;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  
+  .menu-item-57 .ancestor-wrapper  a{
+    font-size: 12px;
+    width: 200px;
+  }
+
+  
+  /*.menu-item-57 .ancestor-wrapper a:hover {
+    background-color:rgb(189, 12, 12) ;
+  }
+  
+
+  .section-inner .toggle-text{
+    text-decoration: none;
+    background-color: red;
+  }*/
+    
+}
+   
+
+
+
+
+
+
