@@ -1,4 +1,5 @@
 <?php
+
 /**
  * The template for displaying the footer
  *
@@ -12,12 +13,13 @@
  */
 
 ?>
-			
-      <footer id="site-footer" class="header-footer-group">
-             
-      </footer><!-- #site-footer -->
 
-		<?php wp_footer(); ?>
+<footer id="site-footer" class="header-footer-group">
 
-	</body>
+</footer><!-- #site-footer -->
+
+<?php wp_footer(); ?>
+
+</body>
+
 </html>
