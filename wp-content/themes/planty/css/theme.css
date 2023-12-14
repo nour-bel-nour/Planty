@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
 
 body * { 
-       font-family: 'Syne', sans-serif;
+      font-family: 'Syne', sans-serif;
  }
 
  
@@ -81,13 +81,9 @@ body * {
   background-color:rgb(189, 12, 12) ;
 }
 
-.page-id-43{
+.page-id-43{ 
   background-color: #3B8E46 !important;
-}
-
-/*.init p {
-  color: white;
-}*/
+} 
 
 .elementor-element-4a1fc20  .has-spinner{
   border-radius: 5px;
@@ -105,16 +101,48 @@ body * {
   margin-left: 70px;
 }
 
-.deux-colonnes {
-  display: block ;
-  flex-direction:row ;
-  border-radius: 5px;
+  /*formulaire livraison*/
+
+.deux-colonnes p {
+  display: flex ;
+  gap: 177px;
 }
 
-.compteur {
-  width: 39px;
-  height: 56px;
+.deux-colonnes label {
+  color: #FFF;
+  font-family: Syne;
+  font-size: 20px;
+  font-weight: 400;
 }
+
+.deux-colonnes .wpcf7-text{ 
+  width: 383px;
+  height: 71px;
+  border-radius: 7px;
+  margin-top: 7px;
+} 
+
+#wpcf7-f222-p43-o5 .has-spinner{
+  text-decoration: none;
+  width: 198px;
+  height: 55px;
+  border-radius: 5px;
+  background-color: #E0B9B4;
+  font-size: 15px;
+  font-weight: 400;
+  margin-left: 370px;
+  margin-top: 25px;
+}
+
+.com{
+  font-family: Syne;
+}
+
+#wpcf7-f222-p43-o5 .has-spinner:hover{
+  background-color:rgb(189, 12, 12) ;
+}
+
+
 
 
 @media screen and (max-width: 992px) {
@@ -134,7 +162,7 @@ body * {
   .menu-item-57 .ancestor-wrapper  a{
     font-size: 12px;
     width: 200px;  
-}
+  }
 }
 
 
@@ -148,12 +176,7 @@ body * {
   
   .elementor-element-73936f4  .has-spinner {
     margin-left: 90px;
-
-
   }
-
-
-    
 }
    
 
