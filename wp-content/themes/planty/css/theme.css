@@ -167,7 +167,7 @@ body * {
 
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
   
   .menu-item-57 .ancestor-wrapper  a{
     font-size: 12px;
@@ -177,6 +177,21 @@ body * {
   .elementor-element-73936f4  .has-spinner {
     margin-left: 90px;
   }
+  
+   /* formulaire livraison */
+
+  .deux-colonnes p {
+    display: flex ;
+    gap: 7px;
+  }
+
+  .deux-colonnes .wpcf7-text{ 
+    width: 283px;
+    height: 51px;
+    border-radius: 7px;
+    margin-top: 7px;
+  } 
+
 }
    
 
