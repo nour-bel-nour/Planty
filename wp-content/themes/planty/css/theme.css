@@ -182,7 +182,7 @@ body * {
 
   .deux-colonnes p {
     display: flex ;
-    gap: 7px;
+    gap: 57px;
   }
 
   .deux-colonnes .wpcf7-text{ 
@@ -192,11 +192,39 @@ body * {
     margin-top: 7px;
   } 
 
+  #wpcf7-f222-p43-o5 .has-spinner{
+    margin-left: 220px;
+  }
+
+  .elementor-43 .elementor-element.elementor-element-ca66bdd .elementor-heading-title{
+    margin-left: 18px;
+    margin-top: 10px;
+  }
+
+  .elementor-43 .elementor-element.elementor-element-002ffe4 .elementor-heading-title{
+    margin-left: 7px;
+  }
+
 }
-   
+
+@media screen and (max-width: 320px) {
+  
+  .deux-colonnes p {
+    display: inline;
+    gap: 7px;
+  }
+
+  #wpcf7-f222-p43-o5 .has-spinner{
+    margin-left: 70px;
+    margin-bottom: -100px;
+    width: 138px;
+    height: 45px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
 
 
-
+}
 
 
 
