@@ -143,7 +143,7 @@ body * {
 }
 
 
-
+ /* ...media quereis...  */
 
 @media screen and (max-width: 992px) {
   
@@ -167,11 +167,15 @@ body * {
 
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 810px) {
   
   .menu-item-57 .ancestor-wrapper  a{
     font-size: 12px;
     width: 200px;
+  }
+
+  .menu-item-57 .ancestor-wrapper  a:hover{
+    background-color:rgb(189, 12, 12)
   }
   
   .elementor-element-73936f4  .has-spinner {
@@ -195,19 +199,32 @@ body * {
   #wpcf7-f222-p43-o5 .has-spinner{
     margin-left: 220px;
   }
-
-  .elementor-43 .elementor-element.elementor-element-ca66bdd .elementor-heading-title{
-    margin-left: 18px;
+  
+  #wpcf7-f222-p43-o5 .has-spinner:hover{
+    background-color:rgb(189, 12, 12) ;
+  }
+  
+  .elementor-element-ca66bdd .elementor-heading-title{
+    margin-left: 30px;
     margin-top: 10px;
   }
 
-  .elementor-43 .elementor-element.elementor-element-002ffe4 .elementor-heading-title{
-    margin-left: 7px;
+  .elementor-element-002ffe4 .elementor-heading-title{
+    margin-left: 28px;
+  }
+
+  .elementor-element-04cec21 .elementor-heading-title{
+    margin-left: 28px;
+    width: 100%;
+  }
+
+  .elementor-element-3f65b3d .elementor-heading-title{
+    margin-left: 30px;
   }
 
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 375px) {
   
   .deux-colonnes p {
     display: inline;
