@@ -61,12 +61,6 @@ body * {
 }
 
 
-/* Footer */
-
-.hfe-copyright-wrapper a{
-  color: black;
-}
-
 /* Formulaire */
 
 /*  page nous contacter  */
@@ -101,12 +95,10 @@ body * {
   margin-left: 70px;
 }
 
-  /*formulaire livraison*/
-
 .deux-colonnes p {
   display: flex ;
   gap: 177px;
-}
+ }
 
 .deux-colonnes label {
   color: #FFF;
@@ -134,24 +126,21 @@ body * {
   margin-top: 25px;
 }
 
-.com{
-  font-family: Syne;
-}
-
 #wpcf7-f222-p43-o5 .has-spinner:hover{
   background-color:rgb(189, 12, 12) ;
 }
 
 
- /* ...media quereis...  */
+ /* .................MEDIA QUERIES.................  */
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 810px) {
   
   .ancestor-wrapper a{
     padding-top: 30px;
     color:black !important;
     text-decoration: none !important;
   }
+  
   .menu-item-57 .ancestor-wrapper a{
     background-color : #DC9F96; 
     color: white !important;
@@ -159,31 +148,20 @@ body * {
     width: 150px;
     text-decoration: none;
   }
+  
   .menu-item-57 .ancestor-wrapper  a{
     font-size: 12px;
     width: 200px;  
   }
-}
-
-
-
-@media screen and (max-width: 810px) {
-  
-  .menu-item-57 .ancestor-wrapper  a{
-    font-size: 12px;
-    width: 200px;
-  }
 
   .menu-item-57 .ancestor-wrapper  a:hover{
-    background-color:rgb(189, 12, 12)
+    background-color:rgb(189, 12, 12);
   }
   
   .elementor-element-73936f4  .has-spinner {
     margin-left: 90px;
   }
   
-   /* formulaire livraison */
-
   .deux-colonnes p {
     display: flex ;
     gap: 57px;
@@ -201,7 +179,7 @@ body * {
   }
   
   #wpcf7-f222-p43-o5 .has-spinner:hover{
-    background-color:rgb(189, 12, 12) ;
+    background-color:rgb(189, 12, 12); 
   }
   
   .elementor-element-ca66bdd .elementor-heading-title{
@@ -224,6 +202,7 @@ body * {
 
 }
 
+
 @media screen and (max-width: 375px) {
   
   .deux-colonnes p {
@@ -238,6 +217,51 @@ body * {
     height: 45px;
     text-align: center;
     padding-bottom: 10px;
+  }
+
+  .elementor-element-ca66bdd .elementor-heading-title{
+    margin-left: 15px;
+  }
+
+  .elementor-element-002ffe4 .elementor-heading-title{
+    width: 100%;
+}
+
+  .elementor-element-04cec21 .elementor-heading-title{
+    margin-left: 10px;
+  }
+
+  .elementor-element-3f65b3d .elementor-heading-title{
+    margin-left: 10px;
+  }
+
+  .table{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ele1{
+    order: 1;
+  }
+
+  .ele2{
+    order: 4;
+  }
+
+  .ele3{
+    order: 2;
+  }
+
+  .ele4{
+    order: 5;
+  }
+
+  .ele5{
+    order: 3;
+  }
+
+  .ele6{
+    order: 6;
   }
 
 
