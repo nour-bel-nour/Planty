@@ -6,7 +6,7 @@ body * {
  }
 
  
-/* Header */
+/* .................HEADER................. */
 
 .header-inner {
   height: 80px;
@@ -45,6 +45,8 @@ body * {
   background-color:rgb(189, 12, 12) ;
 }
 
+ /*.................PAGE PRINCIPAL................ */
+
 .branche1 {
   margin-right: -187px;
   margin-top: 137px
@@ -61,9 +63,8 @@ body * {
 }
 
 
-/* Formulaire */
+/*  ................PAGE NOUS CONTACTER.................  */
 
-/*  page nous contacter  */
 .elementor-element-73936f4  .has-spinner  {
   border-radius: 5px;
   background: #E0B9B4;
@@ -75,17 +76,12 @@ body * {
   background-color:rgb(189, 12, 12) ;
 }
 
+
+/* .................PAGE COMMANDER................. */
+
 .page-id-43{ 
   background-color: #3B8E46 !important;
 } 
-
-.elementor-element-4a1fc20  .has-spinner{
-  border-radius: 5px;
-  background-color: #E0B9B4;
-  width: 100px;
-  height: 56px;
-  text-decoration: none;
-}
 
 .elementor-element-4a1fc20 .wpcf7-validates-as-number{
   border-radius: 5px;
@@ -131,57 +127,30 @@ body * {
 }
 
 
- /* .................MEDIA QUERIES.................  */
+/* .................MEDIA QUERIES.................  */
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 768px) {
   
-  .ancestor-wrapper a{
+  .ancestor-wrapper a{  /*Menu*/
     padding-top: 30px;
     color:black !important;
     text-decoration: none !important;
   }
   
-  .menu-item-57 .ancestor-wrapper a{
+  .menu-item-57 .ancestor-wrapper a{ /*Menu commander*/
     background-color : #DC9F96; 
     color: white !important;
-    padding-top: 30px;
-    width: 150px;
+    font-size: 12px;
+    width: 220px;  
     text-decoration: none;
   }
   
-  .menu-item-57 .ancestor-wrapper  a{
-    font-size: 12px;
-    width: 200px;  
-  }
-
   .menu-item-57 .ancestor-wrapper  a:hover{
     background-color:rgb(189, 12, 12);
   }
   
-  .elementor-element-73936f4  .has-spinner {
-    margin-left: 90px;
-  }
-  
-  .deux-colonnes p {
-    display: flex ;
-    gap: 57px;
-  }
-
-  .deux-colonnes .wpcf7-text{ 
-    width: 283px;
-    height: 51px;
-    border-radius: 7px;
-    margin-top: 7px;
-  } 
-
-  #wpcf7-f222-p43-o5 .has-spinner{
-    margin-left: 220px;
-  }
-  
-  #wpcf7-f222-p43-o5 .has-spinner:hover{
-    background-color:rgb(189, 12, 12); 
-  }
-  
+/* .................PAGE COMMANDER................. */
+ 
   .elementor-element-ca66bdd .elementor-heading-title{
     margin-left: 30px;
     margin-top: 10px;
@@ -200,11 +169,34 @@ body * {
     margin-left: 30px;
   }
 
+  .deux-colonnes p {
+    display: flex ;
+    gap: 57px;
+  }
+
+  .deux-colonnes .wpcf7-text{ 
+    width: 283px;
+    height: 51px;
+    border-radius: 7px;
+    margin-top: 7px;
+  } 
+
+  #wpcf7-f222-p43-o5 .has-spinner{
+    margin-left: 215px;
+  }
+  
+  #wpcf7-f222-p43-o5 .has-spinner:hover{
+    background-color:rgb(189, 12, 12); 
+  }
+  
 }
 
-
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 360px) {
   
+  .elementor-element-73936f4  .has-spinner{
+    margin-left: 105px;
+  }
+
   .deux-colonnes p {
     display: inline;
     gap: 7px;
