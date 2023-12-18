@@ -91,9 +91,13 @@ body * {
   margin-left: 70px;
 }
 
+.sans-colonnes {
+  display: none;
+}
+
 .deux-colonnes p {
   display: flex ;
-  gap: 177px;
+  gap: 87px;
  }
 
 .deux-colonnes label {
@@ -152,21 +156,21 @@ body * {
 /* .................PAGE COMMANDER................. */
  
   .elementor-element-ca66bdd .elementor-heading-title{
-    margin-left: 30px;
-    margin-top: 10px;
+    margin-left: 17px;
+    margin-top: 7px;
   }
 
   .elementor-element-002ffe4 .elementor-heading-title{
-    margin-left: 28px;
+    margin-left: 10px;
   }
 
   .elementor-element-04cec21 .elementor-heading-title{
-    margin-left: 28px;
+    margin-left: 10px;
     width: 100%;
   }
 
   .elementor-element-3f65b3d .elementor-heading-title{
-    margin-left: 30px;
+    margin-left: 5px;
   }
 
   .deux-colonnes p {
@@ -185,39 +189,17 @@ body * {
     margin-left: 215px;
   }
   
-  #wpcf7-f222-p43-o5 .has-spinner:hover{
-    background-color:rgb(189, 12, 12); 
-  }
-  
 }
 
 @media screen and (max-width: 360px) {
   
-  .elementor-element-73936f4  .has-spinner{
-    margin-left: 105px;
-  }
-
-  .deux-colonnes p {
-    display: inline;
-    gap: 7px;
-  }
-
-  #wpcf7-f222-p43-o5 .has-spinner{
-    margin-left: 70px;
-    margin-bottom: -100px;
-    width: 138px;
-    height: 45px;
-    text-align: center;
-    padding-bottom: 10px;
-  }
-
-  .elementor-element-ca66bdd .elementor-heading-title{
+  .elementor-element-ca66bdd .elementor-heading-title{ 
     margin-left: 15px;
-  }
+   } 
 
   .elementor-element-002ffe4 .elementor-heading-title{
     width: 100%;
-}
+  }
 
   .elementor-element-04cec21 .elementor-heading-title{
     margin-left: 10px;
@@ -225,38 +207,37 @@ body * {
 
   .elementor-element-3f65b3d .elementor-heading-title{
     margin-left: 10px;
+  } 
+
+  .sans-colonnes{
+    display: inline;
   }
 
-  .table{
-    display: flex;
-    flex-direction: column;
+  .deux-colonnes p{
+    display: none;
   }
 
-  .ele1{
-    order: 1;
+  .sans-colonnes .wpcf7-text{ 
+    width: 283px;
+    height: 51px;
+    border-radius: 7px;
+    margin-top: 7px;
+  } 
+
+  .sans-colonnes label {
+    color: #FFF;
+    font-family: Syne;
+    font-size: 20px;
+    font-weight: 400;
   }
 
-  .ele2{
-    order: 4;
+  #wpcf7-f222-p43-o5 .has-spinner {
+    margin-left: 70px;
+    margin-bottom: -100px;
+    width: 138px;
+    height: 45px;
+    padding-top: 13px;
   }
-
-  .ele3{
-    order: 2;
-  }
-
-  .ele4{
-    order: 5;
-  }
-
-  .ele5{
-    order: 3;
-  }
-
-  .ele6{
-    order: 6;
-  }
-
-
 }
 
 
