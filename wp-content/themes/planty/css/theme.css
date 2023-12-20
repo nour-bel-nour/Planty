@@ -3,7 +3,7 @@
 
 body * { 
       font-family: 'Syne', sans-serif;
- }
+}
 
  
 /* .................HEADER................. */
@@ -153,26 +153,8 @@ body * {
     background-color:rgb(189, 12, 12);
   }
   
-/* .................PAGE COMMANDER................. */
+ /* .................PAGE COMMANDER................. */
  
-  .elementor-element-ca66bdd .elementor-heading-title{
-    margin-left: 17px;
-    margin-top: 7px;
-  }
-
-  .elementor-element-002ffe4 .elementor-heading-title{
-    margin-left: 10px;
-  }
-
-  .elementor-element-04cec21 .elementor-heading-title{
-    margin-left: 10px;
-    width: 100%;
-  }
-
-  .elementor-element-3f65b3d .elementor-heading-title{
-    margin-left: 5px;
-  }
-
   .deux-colonnes p {
     display: flex ;
     gap: 57px;
@@ -186,29 +168,13 @@ body * {
   } 
 
   #wpcf7-f222-p43-o5 .has-spinner{
-    margin-left: 215px;
+    margin-left: 221px;
   }
   
 }
 
 @media screen and (max-width: 360px) {
   
-  .elementor-element-ca66bdd .elementor-heading-title{ 
-    margin-left: 15px;
-   } 
-
-  .elementor-element-002ffe4 .elementor-heading-title{
-    width: 100%;
-  }
-
-  .elementor-element-04cec21 .elementor-heading-title{
-    margin-left: 10px;
-  }
-
-  .elementor-element-3f65b3d .elementor-heading-title{
-    margin-left: 10px;
-  } 
-
   .sans-colonnes{
     display: inline;
   }
