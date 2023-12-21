@@ -8,19 +8,14 @@ body * {
  
 /* .................HEADER................. */
 
- .header-inner {
+.header-inner {
    height: 80px;
    width: 1440px;
 }
 
- .custom-logo-link{
+.custom-logo-link{
    margin-left: 37px;
 } 
-
-.header-navigation-wrapper .menu-item a {
-  margin-left:-130px;
-
-}  
 
 .primary-menu .menu-admin{
   position: absolute;
@@ -28,6 +23,12 @@ body * {
   
 .header-navigation-wrapper .menu-item a {
   padding-right: 200px !important;
+  margin-left:-130px;
+}
+
+.modal-menu a:hover {
+  text-decoration: none;
+  color: black;
 }
 
 .header-navigation-wrapper .menu-item a{
@@ -162,8 +163,9 @@ body * {
     text-decoration: none;
   }
   
-  .menu-item-57 .ancestor-wrapper  a:hover{
-    background-color:rgb(189, 12, 12);
+  .menu-wrapper .menu-admin a{
+    text-decoration: none;
+    color: black;
   }
   
  /* .................PAGE COMMANDER................. */
