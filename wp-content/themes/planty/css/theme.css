@@ -8,14 +8,27 @@ body * {
  
 /* .................HEADER................. */
 
-.header-inner {
-  height: 80px;
-  width: 1440px;
+ .header-inner {
+   height: 80px;
+   width: 1440px;
 }
 
-.custom-logo-link{
-  margin-left: 37px;
+ .custom-logo-link{
+   margin-left: 37px;
 } 
+
+.header-navigation-wrapper .menu-item a {
+  margin-left:-130px;
+
+}  
+
+.primary-menu .menu-admin{
+  position: absolute;
+} 
+  
+.header-navigation-wrapper .menu-item a {
+  padding-right: 200px !important;
+}
 
 .header-navigation-wrapper .menu-item a{
   padding-top: 30px;
