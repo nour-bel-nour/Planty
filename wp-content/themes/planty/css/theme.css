@@ -10,7 +10,6 @@ body * {
 
 .header-inner {
    height: 80px;
-   width: 1440px;
 }
 
 .custom-logo-link{
@@ -21,11 +20,6 @@ body * {
   position: absolute;
 } 
   
-.header-navigation-wrapper .menu-item a {
-  padding-right: 200px !important;
-  margin-left:-130px;
-}
-
 .modal-menu a:hover {
   text-decoration: none;
   color: black;
@@ -35,7 +29,11 @@ body * {
   padding-top: 30px;
   color:black !important;
   text-decoration: none !important;
-  padding-right: 35px;
+  margin-left: 130px;
+}
+
+.primary-menu .menu-admin a{
+  margin-left: -300px;
 }
 
 .header-navigation-wrapper .menu-item a:hover {
@@ -52,7 +50,7 @@ body * {
   font-size: 16px;
   padding: 30px 61px;
   text-decoration: none;
-  margin-right: -80px;
+  margin-right: -40px;
 }
 
 .header-navigation-wrapper #menu-item-57 a:hover {
@@ -112,7 +110,7 @@ body * {
 .deux-colonnes p {
   display: flex ;
   gap: 87px;
- }
+}
 
 .deux-colonnes label {
   color: #FFF;
@@ -144,10 +142,16 @@ body * {
   background-color:rgb(189, 12, 12) ;
 }
 
+.header-controls {
+  display: none !important;
+}
 
-/* .................MEDIA QUERIES.................  */
+.translated-text {
+  display: none;
+}
 
-@media screen and (max-width: 768px) {
+
+@media (max-width: 768px) {
   
   .ancestor-wrapper a{  /*Menu*/
     padding-top: 30px;
@@ -168,10 +172,8 @@ body * {
     color: black;
   }
   
- /* .................PAGE COMMANDER................. */
- 
   .deux-colonnes p {
-    display: flex ;
+    margin-left: 30px;
     gap: 57px;
   }
 
@@ -183,12 +185,12 @@ body * {
   } 
 
   #wpcf7-f222-p43-o5 .has-spinner{
-    margin-left: 221px;
+    margin-left: 255px;
   }
-  
 }
 
-@media screen and (max-width: 360px) {
+
+@media  (max-width: 360px) {
   
   .sans-colonnes{
     display: inline;
