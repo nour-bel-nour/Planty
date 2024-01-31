@@ -12,11 +12,11 @@ body * {
    height: 80px;
 }
 
-.custom-logo-link{
+.custom-logo-link {
    margin-left: 37px;
 } 
 
-.primary-menu .menu-admin{
+.primary-menu .menu-admin {
   position: absolute;
 } 
   
@@ -25,14 +25,14 @@ body * {
   color: black;
 }
 
-.header-navigation-wrapper .menu-item a{
+.header-navigation-wrapper .menu-item a {
   padding-top: 30px;
   color:black !important;
   text-decoration: none !important;
   margin-left: 130px;
 }
 
-.primary-menu .menu-admin a{
+.primary-menu .menu-admin a {
   margin-left: -300px;
 }
 
@@ -41,7 +41,7 @@ body * {
   font-weight: 400;
 }
 
-.header-navigation-wrapper #menu-item-57 a{
+.header-navigation-wrapper #menu-item-57 a {
   background-color : #DC9F96; 
   color: #ffffff !important;
   height: 80px;
@@ -63,31 +63,52 @@ body * {
   margin-right: -187px;
   margin-top: 137px
 }
-
 .branche2 {
-  margin-left:-190px ;
+  margin-left:-187px ;
   margin-top:137px ;
 }
-
-.decor {
-  margin-top: -209px;
-  margin-left: 307px;
+@media (max-width: 596px) {
+  .branche1 {
+    display: none;
+  }
+  .branche2 {
+    display: none;
+  }
 }
 
+.saveur {
+  position: relative;
+} 
 
-/*  ................PAGE NOUS CONTACTER.................  */
 
-.elementor-element-73936f4  .has-spinner  {
+@media (max-width: 1024) {
+   .parfum {
+    size: 22px;
+    color: black;
+    
+  }
+ 
+}
+ 
+/*  ................PAGE NOUS RECONTRER.................  */
+
+.elementor-element-73936f4  .has-spinner {
   border-radius: 5px;
   background: #E0B9B4;
   text-decoration: none !important;
-  margin-left: 127px;
+  margin-left: 147px;
 }
 
 .elementor-element-73936f4 .has-spinner:hover {
   background-color:rgb(189, 12, 12) ;
 }
 
+.elementor-43 .elementor-element.elementor-element-4d26140 .elementor-divider {
+  text-align: center;
+  padding-top: 65px;
+  padding-bottom: 25px;
+  width: 1250px;
+}
 
 /* .................PAGE COMMANDER................. */
 
@@ -150,78 +171,10 @@ body * {
   display: none;
 }
 
-
-@media (max-width: 768px) {
-  
-  .ancestor-wrapper a{  /*Menu*/
-    padding-top: 30px;
-    color:black !important;
-    text-decoration: none !important;
-  }
-  
-  .menu-item-57 .ancestor-wrapper a{ /*Menu commander*/
-    background-color : #DC9F96; 
-    color: white !important;
-    font-size: 12px;
-    width: 220px;  
-    text-decoration: none;
-  }
-  
-  .menu-wrapper .menu-admin a{
-    text-decoration: none;
-    color: black;
-  }
-  
-  .deux-colonnes p {
-    margin-left: 30px;
-    gap: 57px;
-  }
-
-  .deux-colonnes .wpcf7-text{ 
-    width: 283px;
-    height: 51px;
-    border-radius: 7px;
-    margin-top: 7px;
-  } 
-
-  #wpcf7-f222-p43-o5 .has-spinner{
-    margin-left: 255px;
-  }
+.elementor-element-1e11b17 {
+  display: none;
 }
 
-
-@media  (max-width: 360px) {
-  
-  .sans-colonnes{
-    display: inline;
-  }
-
-  .deux-colonnes p{
-    display: none;
-  }
-
-  .sans-colonnes .wpcf7-text{ 
-    width: 283px;
-    height: 51px;
-    border-radius: 7px;
-    margin-top: 7px;
-  } 
-
-  .sans-colonnes label {
-    color: #FFF;
-    font-family: Syne;
-    font-size: 20px;
-    font-weight: 400;
-  }
-
-  #wpcf7-f222-p43-o5 .has-spinner {
-    margin-left: 70px;
-    margin-bottom: -100px;
-    width: 138px;
-    height: 45px;
-    padding-top: 13px;
-  }
-}
 
 
 
