@@ -81,6 +81,14 @@ body * {
 } 
 
 
+
+@media (max-width: 605px) {
+  .parfum {
+    font-size: 23px;
+    color: aqua;
+  }
+
+  }
     
 
  /*  ................PAGE NOUS RECONTRER.................  */
