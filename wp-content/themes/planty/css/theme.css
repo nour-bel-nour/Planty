@@ -81,16 +81,9 @@ body * {
 } 
 
 
-@media (max-width: 1024) {
-   .parfum {
-    size: 22px;
-    color: black;
     
-  }
- 
-}
- 
-/*  ................PAGE NOUS RECONTRER.................  */
+
+ /*  ................PAGE NOUS RECONTRER.................  */
 
 .elementor-element-73936f4  .has-spinner {
   border-radius: 5px;
