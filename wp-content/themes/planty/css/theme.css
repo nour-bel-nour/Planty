@@ -5,8 +5,8 @@ body * {
       font-family: 'Syne', sans-serif;
 }
 
- 
-/* .................HEADER................. */
+
+ /* .................HEADER................. */
 
 .header-inner {
    height: 80px;
@@ -58,7 +58,7 @@ body * {
 }
 
  /*.................PAGE PRINCIPAL................ */
-
+ 
 .branche1 {
   margin-right: -187px;
   margin-top: 137px
@@ -79,19 +79,102 @@ body * {
 .saveur {
   position: relative;
 } 
-
-
-
-@media (max-width: 605px) {
-  .parfum {
-    font-size: 23px;
-    color: aqua;
+@media (max-width: 1100px) {
+  .parfum1 {
+    margin-left: -55px;
   }
-
+}
+@media (max-width: 750px) {
+  .parfum1 {
+    margin-left: 30px;
   }
-    
+}
+@media (max-width: 644px) {
+  .parfum1 {
+    margin-left: -30px;
+    margin-top: -15px;
+  }
+  .parfum2 {
+    margin-left: -15px;
+  }
+}
+@media (max-width: 576px) {
+  .parfum1 {
+    font-weight: 600 !important;
+    margin-top: -45px;
+  }
+  .parfum2 {
+    font-weight: 600 !important;
+    margin-top: -45px;
+  }
+}
+@media (max-width: 440px) {
+  .parfum1 {
+    margin-top: -60px;
+    margin-left: -40px;
+    font-weight: 200 !important;
+  }
+  .parfum2 {
+   font-weight: 200 !important;
+  }
+}
+@media (max-width: 380px) {
+  .parfum1 {
+    font-size: 22px !important;
+    font-weight: 100 !important;
+  }
+  .parfum2 {
+    font-size: 22px !important;
+   font-weight: 100 !important;
+   
+  }
+}
+@media (max-width: 320px) {
+  .parfum1 {
+    font-weight: 800 !important;
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+  .parfum2 {
+    font-weight: 800 !important;
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+}
 
- /*  ................PAGE NOUS RECONTRER.................  */
+@media (max-width: 766px) {
+  .k9, .k10, .k11, .k12, .k12, .k13, .k14{
+    display: none;
+  }
+}
+@media (max-width: 762px) {
+  .k1, .k8{
+    display: none;
+  }
+}
+@media (max-width: 652px) {
+  .k7{
+    display: none;
+  }
+}
+@media (max-width: 744px) {
+  .k5{
+    display: none;
+  }
+}
+@media (max-width: 432px) {
+  .k4{
+    display: none;
+  }
+}
+@media (max-width: 326px) {
+  .k3{
+    display: none;
+  }
+}
+
+
+/*  ................PAGE NOUS RECONTRER.................  */
 
 .elementor-element-73936f4  .has-spinner {
   border-radius: 5px;
