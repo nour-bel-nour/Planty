@@ -189,12 +189,8 @@ body * {
   background-color: #3B8E46 !important;
 } 
 
-.elementor-element-4a1fc20 .wpcf7-validates-as-number{
-  border-radius: 5px;
-  width: 71px;
-  height: 56px;
-  margin-top: -95px;
-  margin-left: 70px;
+.gout {
+  position: relative;
 }
 
 .sans-colonnes {
@@ -204,6 +200,7 @@ body * {
 .deux-colonnes p {
   display: flex ;
   gap: 87px;
+  background-color: aqua;
 }
 
 .deux-colonnes label {
@@ -211,6 +208,7 @@ body * {
   font-family: Syne;
   font-size: 20px;
   font-weight: 400;
+  background-color: rgb(234, 255, 0);
 }
 
 .deux-colonnes .wpcf7-text{ 
@@ -218,6 +216,7 @@ body * {
   height: 71px;
   border-radius: 7px;
   margin-top: 7px;
+  background-color: red;
 } 
 
 #wpcf7-f222-p43-o5 .has-spinner{
