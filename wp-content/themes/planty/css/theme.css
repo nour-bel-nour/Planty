@@ -57,7 +57,8 @@ body * {
   background-color:rgb(189, 12, 12) ;
 }
 
- /*.................PAGE PRINCIPAL................ */
+ 
+/*.................PAGE PRINCIPAL................ */
  
 .branche1 {
   margin-right: -187px;
@@ -98,7 +99,7 @@ body * {
     margin-left: -15px;
   }
 }
-@media (max-width: 576px) {
+@media (max-width: 600px) {
   .parfum1 {
     font-weight: 600 !important;
     margin-top: -45px;
@@ -124,9 +125,8 @@ body * {
     font-weight: 100 !important;
   }
   .parfum2 {
-    font-size: 22px !important;
+   font-size: 22px !important;
    font-weight: 100 !important;
-   
   }
 }
 @media (max-width: 320px) {
@@ -143,32 +143,7 @@ body * {
 }
 
 @media (max-width: 766px) {
-  .k9, .k10, .k11, .k12, .k12, .k13, .k14{
-    display: none;
-  }
-}
-@media (max-width: 762px) {
-  .k1, .k8{
-    display: none;
-  }
-}
-@media (max-width: 652px) {
-  .k7{
-    display: none;
-  }
-}
-@media (max-width: 744px) {
-  .k5{
-    display: none;
-  }
-}
-@media (max-width: 432px) {
-  .k4{
-    display: none;
-  }
-}
-@media (max-width: 326px) {
-  .k3{
+  .ka{
     display: none;
   }
 }
@@ -176,23 +151,37 @@ body * {
 
 /*  ................PAGE NOUS RECONTRER.................  */
 
+@media (max-width: 382px) {
+  .e-con.e-flex > .e-con-inner{
+    justify-content: center;
+  }
+}
+
 .elementor-element-73936f4  .has-spinner {
   border-radius: 5px;
   background: #E0B9B4;
   text-decoration: none !important;
   margin-left: 147px;
 }
-
 .elementor-element-73936f4 .has-spinner:hover {
   background-color:rgb(189, 12, 12) ;
 }
 
-.elementor-43 .elementor-element.elementor-element-4d26140 .elementor-divider {
-  text-align: center;
-  padding-top: 65px;
-  padding-bottom: 25px;
-  width: 1250px;
+.wp-image-244 {
+  margin-left: 50px;
+} 
+@media (max-width: 770px) {
+  .wp-image-244 {
+    display: none !important;
+  } 
 }
+
+@media (max-width: 768px) {
+  .ca {
+    display: none;
+  } 
+}
+
 
 /* .................PAGE COMMANDER................. */
 
