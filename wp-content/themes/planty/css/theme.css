@@ -189,20 +189,60 @@ body * {
   background-color: #3B8E46 !important;
 } 
 
+@media (max-width: 476px) {
+  .elementor-43 .elementor-element.elementor-element-dcc71c8 .elementor-heading-title {
+    font-weight: 700;
+  }
+  .elementor-43 .elementor-element.elementor-element-f6f2f55 .elementor-heading-title {
+    font-weight: 500;
+  }
+} 
+ 
 .gout {
   position: relative;
 }
+@media (max-width: 1258px) {
+  .parf1 {
+    margin-left: -90px;
+  }
+}  
+@media (max-width: 916px) {
+  .p1 {
+    margin-left: -150px;
+    margin-top: 15px;
+  }
+  .p2 {
+    margin-left: -100px;
+    margin-top: 20px;
+  }
+  .p3, .p4 {
+    margin-left: -40px;
+    margin-top: 30px;
+  }
+  @media (max-width: 460px) {
+    .p1 {
+      margin-left: -270px;
+    }
+    .p2 {
+      margin-left: -150px;
+    }
+    .p4 {
+      margin-left: 30px;
+    }
+  }
+} 
+ 
+
+
 
 .sans-colonnes {
   display: none;
 }
-
 .deux-colonnes p {
   display: flex ;
   gap: 87px;
   background-color: aqua;
 }
-
 .deux-colonnes label {
   color: #FFF;
   font-family: Syne;
@@ -210,7 +250,6 @@ body * {
   font-weight: 400;
   background-color: rgb(234, 255, 0);
 }
-
 .deux-colonnes .wpcf7-text{ 
   width: 383px;
   height: 71px;
@@ -230,22 +269,12 @@ body * {
   margin-left: 370px;
   margin-top: 25px;
 }
-
 #wpcf7-f222-p43-o5 .has-spinner:hover{
   background-color:rgb(189, 12, 12) ;
 }
 
-.header-controls {
-  display: none !important;
-}
 
-.translated-text {
-  display: none;
-}
 
-.elementor-element-1e11b17 {
-  display: none;
-}
 
 
 
