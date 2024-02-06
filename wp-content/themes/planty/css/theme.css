@@ -219,7 +219,7 @@ body * {
     margin-left: -40px;
     margin-top: 30px;
   }
-  @media (max-width: 460px) {
+@media (max-width: 460px) {
     .p1 {
       margin-left: -270px;
     }
@@ -232,7 +232,51 @@ body * {
   }
 } 
  
-
+@media (max-width: 1228px) {
+  .compt1, .compt2 {
+    margin-left: -70px;
+  }
+}
+@media (max-width: 1000px) {
+  .compt1 {
+    margin-left: -120px;
+  }
+  .compt3 {
+      margin-left: -50px;
+    }
+  }
+@media (max-width: 520px) {
+    .compt1 {
+      margin-left: -135px ;
+    }
+  }
+@media (max-width: 626px) {
+    .compt1, .compt2, .compt3 ,.compt4 {
+      position: absolute;
+    }
+  } 
+@media (max-width: 460px) {
+    .compt1 {
+      margin-left: -200px;
+    }
+    .compt2 {
+      margin-left: -110px;
+   }
+   .compt4 {
+    margin-left: -80px;
+ }
+}
+@media (max-width: 386px) {
+  .compt1 {
+    margin-left: -240px;
+  }
+  .compt2 {
+    margin-left: -120px;
+ }
+  .compt4 {
+  margin-left: -115px;
+}
+}
 
 
 .sans-colonnes {
