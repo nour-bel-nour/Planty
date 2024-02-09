@@ -6,7 +6,7 @@ body * {
 }
 
 
- /* .................HEADER................. */
+/* .................HEADER................. */
 
 .header-inner {
    height: 80px;
@@ -35,7 +35,6 @@ body * {
 .primary-menu .menu-admin a {
   margin-left: -300px;
 }
-
 .header-navigation-wrapper .menu-item a:hover {
   font-size: 16px;
   font-weight: 400;
@@ -52,7 +51,6 @@ body * {
   text-decoration: none;
   margin-right: -40px;
 }
-
 .header-navigation-wrapper #menu-item-57 a:hover {
   background-color:rgb(189, 12, 12) ;
 }
@@ -199,7 +197,8 @@ body * {
  
 .gout {
   position: relative;
-}
+} 
+
 @media (max-width: 1258px) {
   .parf1 {
     margin-left: -90px;
@@ -211,7 +210,7 @@ body * {
     margin-top: 15px;
   }
   .p2 {
-    margin-left: -100px;
+    margin-left: -91px;
     margin-top: 20px;
   }
   .p3, .p4 {
@@ -231,106 +230,66 @@ body * {
   }
 } 
  
-@media (max-width: 1228px) {
-  .compt1, .compt2 {
-    margin-left: -70px;
+@media (max-width: 1258px) {
+  .compt1 {
+    margin-left: -110px;
+  }.compt2 {
+    margin-left: -60px;
   }
 }
-@media (max-width: 1000px) {
+@media (max-width: 522px) {
   .compt1 {
-    margin-left: -120px;
+    margin-left: -160px ;
   }
-  .compt3 {
-      margin-left: -50px;
-    }
+  .compt2 {
+    margin-left: -85px ;
   }
-@media (max-width: 520px) {
+  .compt4 {
+    margin-left: -55px ;
+  }
+}
+@media (max-width: 458px) {
   .compt1 {
-     margin-left: -135px ;
+    margin-left: -195px ;
   }
+  .compt2 {
+    margin-left: -103px ;
   }
-  @media (max-width: 512px) {
+  .compt4 {
+    margin-left: -85px ;
+  }
+}
+@media (max-width: 422px) {
   .compt1 {
+    margin-left: -230px ;
+  }
+  .compt2 {
+    margin-left: -120px ;
+  }
+  .compt4 {
+    margin-left: -125px ;
+  }
+}
+@media (max-width: 344px) {
+  .compt1 {
+    margin-left: -250px;
+  }
+  .compt2 {
+    margin-left: -125px ;
+  }
+  .compt4 {
+    margin-left: -145px ;
+  }
+}
+@media (max-width: 320px) {
+  .compt1 {
+    margin-left: -303px ;
+  }
+  .compt2 {
     margin-left: -170px ;
   }
-  .compt2 {
-    margin-left: -95px ;
-  }
-  .compt4 {
-    margin-left: -50px ;
-  }
-  }
-@media (max-width: 626px) {
-  .compt1, .compt2, .compt3 ,.compt4 {
-      position: absolute;
-  }
-  } 
-@media (max-width: 460px) {
-  .compt1 {
-      margin-left: -200px;
-  }
-  .compt2 {
-      margin-left: -110px;
-  }
-  .compt4 {
-    margin-left: -80px;
- }
-}
-@media (max-width: 382px) {
-  .compt1 {
-    margin-left: -282px !important;
-  }
-  .compt2 {
-    margin-left: -165px !important;
-  }
   .compt3 {
-    margin-left: -88px !important;
-  }
-  .compt4 {
-    margin-left: -70px !important;
-  }
-}
-@media (max-width: 388px) {
-  .compt1 {
-    margin-left: -240px;
-  }
-  .compt2 {
-    margin-left: -125px;
- }
-  .compt4 {
-  margin-left: -110px;
-}
-}
-@media (max-width: 386px) {
-  .compt1 {
-    margin-left: -240px;
-  }
-  .compt2 {
-    margin-left: -120px;
- }
-  .compt4 {
-  margin-left: -115px;
-}
-}@media (max-width: 398px) {
-  .compt1 {
-    margin-left: -210px;
-  }
-  .compt2 {
-    margin-left: -120px;
- }
-  .compt4 {
-  margin-left: -115px;
-}
-}
-@media (max-width: 322px) {
-  .compt1 {
-    margin-left: -305px !important;
-  }
-  .compt2 {
-    margin-left: -175px !important;
-  }
-  .compt3 {
-    margin-left: -88px ;
+    margin-left: -85px ;
   }
   .compt4 {
     margin-left: -70px ;
@@ -338,7 +297,6 @@ body * {
 }
 
 /*.....Formulaire.....*/
-
 .sans-colonnes {
   display: none;
 }
@@ -346,13 +304,13 @@ body * {
   display: flex;
   gap: 67px;
 }
-.deux-colonnes label { /*text*/
+.deux-colonnes label { 
   color: #FFF;
   font-family: Syne;
   font-size: 20px;
   font-weight: 400;
 }
-.deux-colonnes .wpcf7-text{ /*carré*/
+.deux-colonnes .wpcf7-text{ 
   width: 383px;
   height: 71px;
   border-radius: 7px;
@@ -375,7 +333,7 @@ body * {
   .deux-colonnes p { 
     margin-left: -250px;
   }
-  .deux-colonnes .wpcf7-text{ /*carré*/
+  .deux-colonnes .wpcf7-text{ 
     width: 300px;
     height: 61px;
     border-radius: 7px;
@@ -398,13 +356,13 @@ body * {
     display: flex;
     margin-left: 150px;
   }
-  .sans-colonnes label { /*text*/
+  .sans-colonnes label { 
     color: #FFF;
     font-family: Syne;
     font-size: 20px;
     font-weight: 400;
   }
-  .sans-colonnes .wpcf7-text{ /*carré*/
+  .sans-colonnes .wpcf7-text{ 
     width: 350px;
     height: 61px;
     border-radius: 7px;
@@ -420,7 +378,7 @@ body * {
   }
 } 
 @media (max-width: 368px) {
-  .sans-colonnes .wpcf7-text{ /*carré*/
+  .sans-colonnes .wpcf7-text{ 
     width: 300px;
     height: 61px;
     border-radius: 7px;
