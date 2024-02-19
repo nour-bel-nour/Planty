@@ -58,6 +58,12 @@ body * {
  
 /*.................PAGE PRINCIPAL................ */
  
+@media (max-width: 767px) {
+  .elementor-71 .elementor-element-4ae8617 .elementor-heading-title {
+    font-size: 40px !important;
+  }
+}
+
 .branche1 {
   margin-right: -187px;
   margin-top: 137px
