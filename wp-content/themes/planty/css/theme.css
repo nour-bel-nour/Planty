@@ -39,6 +39,9 @@ body * {
   font-size: 16px;
   font-weight: 400;
 }
+.primary-menu .menu-admin a {
+  width: 50px;
+}
 
 .header-navigation-wrapper #menu-item-57 a {
   background-color : #DC9F96; 
@@ -57,7 +60,10 @@ body * {
 
  
 /*.................PAGE PRINCIPAL................ */
- 
+
+.elementor-71 .elementor-element-4ae8617 .elementor-heading-title {
+  font-size: 70px !important;
+}
 @media (max-width: 767px) {
   .elementor-71 .elementor-element-4ae8617 .elementor-heading-title {
     font-size: 40px !important;
@@ -170,6 +176,12 @@ body * {
 .elementor-element-73936f4 .has-spinner:hover {
   background-color:rgb(189, 12, 12) ;
 }
+
+@media (max-width: 1150px) {
+.elementor-51 .elementor-element.elementor-element-a668992 img {
+  display: none;
+} 
+} 
 
 .wp-image-244 {
   margin-left: 50px;
@@ -407,9 +419,16 @@ body * {
   font-weight: 400;
   margin-left: 350px;
   margin-top: 25px;
-}
+} 
 #wpcf7-f222-p43-o5 .has-spinner:hover{
   background-color:rgb(189, 12, 12) ;
+}
+
+.header-controls {
+  display: none !important;
+}
+.translated-text {
+  display: none !important;
 }
 
 
